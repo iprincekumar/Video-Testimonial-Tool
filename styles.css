@@ -1,0 +1,88 @@
+/* Reset some basic styles */
+body, h1, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Basic styling for body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background-color: #8EC5FC;
+    background-color: #FF3CAC;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    
+
+    border-radius: 8px;
+    box-shadow: 0 2px 50px #ffffff;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Video container styling */
+.video-container {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Video element styling */
+video {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #dddddd;
+}
+
+/* Buttons container styling */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Basic button styling */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Start button styling */
+.btn-start {
+    background: #28a745;
+    color: white;
+}
+
+/* Stop button styling */
+.btn-stop {
+    background: #dc3545;
+    color: white;
+}
+
+/* Disabled button styling */
+.btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
